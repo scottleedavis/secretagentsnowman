@@ -1,0 +1,344 @@
+/*
+File:			custom.css
+Description:		Custom styles for Thesis
+More Info:		http://diythemes.com/thesis/rtfm/custom-css/
+*/
+
+.custom #comic_replay {
+width: 100px;
+height: 30px;
+background-color: green;
+-moz-border-radius: 25px;
+-webkit-radius: 25px;
+border-radius: 25px;
+text-align:center;
+font-size: 22px;
+color: white;
+}
+
+.custom #pagetop {
+	position:absolute;
+}
+
+.custom #pagetop ul {
+	list-style: none;
+}
+
+.custom .meme_create_input {
+	float:left;
+}
+.custom #create_meme_button {
+width: 300px;
+height: 250px;
+background-color: red;
+color: white;
+font-size: 33px;
+-moz-border-radius: 25px;
+-webkit-radius: 25px;
+border-radius: 25px;
+}
+
+.custom #meme_image {
+	float: left;
+margin: 15px;
+max-width: 350px;
+}
+.custom #meme_info {
+	float:left;
+}
+
+/* this makes it possible to add next button beside scrollable */
+.scrollable {
+    float:left;
+}
+
+/* prev, next, prevPage and nextPage buttons */
+a.browse {
+    background:url(../lib/images/hori_large.png) no-repeat;
+    display:block;
+    width:30px;
+    height:30px;
+    float:left;
+    margin-bottom:10px;
+    cursor:pointer;
+    font-size:1px;
+}
+
+/* right */
+a.right { background-position: 0 -30px; clear:right; margin-right: 0px;}
+a.right:hover { background-position:-30px -30px; }
+a.right:active { background-position:-60px -30px; }
+
+
+/* left */
+a.left { margin-left: 0px; }
+a.left:hover  { background-position:-30px 0; }
+a.left:active { background-position:-60px 0; }
+
+/* up and down */
+a.up, a.down  {
+    background:url(../lib/images/vert_large.png) no-repeat;
+    float: none;
+    margin: 10px 50px;
+}
+
+/* up */
+a.up:hover { background-position:-30px 0; }
+a.up:active { background-position:-60px 0; }
+
+/* down */
+a.down { background-position: 0 -30px; }
+a.down:hover { background-position:-30px -30px; }
+a.down:active { background-position:-60px -30px; }
+
+
+/* disabled navigational button */
+a.disabled {
+    visibility:hidden !important;
+}
+
+/*
+  root element for the scrollable.
+  when scrolling occurs this element stays still.
+  */
+
+.custom .content_height_page {
+min-height: 900px;
+}
+
+.scrollable {
+
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width: 550px;
+    height: 95px;
+
+    /* custom decorations */
+    border:1px solid #ccc;
+    background:url(../lib/images/h300.png) repeat-x;
+}
+
+/*
+   root element for scrollable items. Must be absolutely positioned
+   and it should have a extremely large width to accomodate scrollable
+   items.  it's enough that you set the width and height for the root
+   element and not for this element.
+*/
+.scrollable .items {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+    clear:both;
+}
+
+.items div {
+    float:left;
+    width:550px;
+}
+
+/* single scrollable item */
+.scrollable img {
+    float:left;
+    margin:20px 5px 20px 5px;
+    background-color:#fff;
+    padding:2px;
+    border:1px solid #ccc;
+    width:65px;
+    height:50px;
+
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;nsions */
+    width:550px;
+    padding:0;
+
+    /* centered */
+    text-align:center;
+}
+
+
+@font-face {
+    font-family: 'IceCapsRegular';
+    src: url('../lib/fonts/icecaps-webfont.eot');
+    src: url('../lib/fonts/icecaps-webfont.eot%3F') format('embedded-opentype'),
+         url('../lib/fonts/icecaps-webfont.woff') format('woff'),
+         url('../lib/fonts/icecaps-webfont.ttf') format('truetype'),
+         url('../lib/fonts/icecaps-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Futura-LightObliqueRegular';
+    src: url('../lib/fonts/futur_-webfont.eot');
+    src: url('../lib/fonts/futur_-webfont.eot%3F') format('embedded-opentype'),
+         url('../lib/fonts/futur_-webfont.woff') format('woff'),
+         url('../lib/fonts/futur_-webfont.ttf') format('truetype'),
+         url('../lib/fonts/futur_-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.custom #logo a{
+	font-family: 'IceCapsRegular';
+	font-size: 50px; 
+	text-shadow: 2px 2px 2px #40A4DE;
+}
+
+.custom #page {
+	font-family: 'Futura-LightObliqueRegular';
+	background: transparent;
+	background-image:url("../lib/images/trans.png"); 
+	color:#333;	
+}
+
+body.custom { 
+	font-family: 'Futura-LightObliqueRegular';
+	background-image:url('../lib/images/logo.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center; 
+	background-size: cover;
+}
+
+
+.custom li.widget p {
+
+	margin-bottom: 0px;
+}
+
+.custom .to_comments{
+	display: none;
+}
+
+/* IMAGE BANNER */
+.custom .headertxt { clear:both; position:relative; top:250px; left:24px; max-width:522px; }
+.custom .firstline { 
+	width: auto;
+	background-image:url("../lib/images/trans.png"); 
+	color:#333; 
+	font-size:32px; 
+	padding:4px 13px 7px; 
+	float:right; 
+	display:block; 
+	-moz-border-radius: 12px; 
+	-webkit-radius: 12px;
+	border-radius: 12px;
+	border: #999 dashed 2px;
+	/*font-style:italic;*/ 
+}
+.custom .firstline:hover {
+	border: #FFF solid 1px;
+	-moz-border-radius: 12px; 
+	-webkit-radius: 12px;
+	border-radius: 12px;
+}
+
+.custom .firstline a { color:white; 
+}
+.custom .image_banner_box{
+	width:550px;
+	height:350px;
+	/*background-color:white; */
+	margin-left:12px;
+	margin-top:40px;
+	-moz-border-radius: 12px; 
+	-webkit-radius: 12px;
+	border-radius: 12px;
+	/*border: 1px solid white; */
+}
+
+.custom .image_banner{
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 610px;
+	height: 350px;
+	-moz-border-radius: 12px; 
+	-webkit-radius: 12px;
+	border-radius: 12px;
+}
+
+.custom li.recent-post-item{
+	float:left;
+	margin: 0;
+}
+
+.custom input#s {
+	border: #fff solid white;
+	-moz-border-radius: 9px; 
+	-webkit-radius: 9px;
+	border-radius: 9px;
+	width:85%;
+}
+
+.custom input#searchsubmit {
+	-moz-border-radius: 6px; 
+	-webkit-radius: 6px;
+	border-radius: 6px;
+}
+
+
+.custom div.textwidget img{
+	-moz-border-radius: 14px; 
+	-webkit-radius: 14px;
+	border-radius: 14px;
+	float:right;
+	margin-right: 10px;
+	width: 30px;
+}
+.custom div.textwidget img:hover{
+	opacity:0.85;
+	filter:alpha(opacity=85); /* For IE8 and earlier */
+}
+
+.custom img.wp-post-image {
+	-moz-border-radius: 12px; 
+	-webkit-radius: 12px;
+	border-radius: 12px;
+	margin-right: 5px;
+}
+.custom #advanced-recent-posts-3 img.wp-post-image:hover {
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.custom .meme_icon {
+	
+	width: 80px;
+	height: 80px;
+}
+
+.custom .meme_icon img:hover{
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.custom .meme_generator_tmp {
+	border: #fff dashed 1px;
+	-moz-border-radius: 9px; 
+	-webkit-radius: 9px;
+	border-radius: 9px;
+	width:350px;
+	margin-top:150px;
+}
+
+/*---:[ nav colors ]:---*/
+/*.menu, .menu a, .menu li ul { border-color: #DDDDDD; }
+.menu .current a, .menu .current-cat a, .menu .current-menu-item a { border-bottom-color: #FFFFFF; }
+.menu ul .current a, .menu ul .current-cat a, .menu .current ul a, .menu .current-cat ul a, .menu ul .current-menu-item a { border-bottom-color: #DDDDDD; }
+.menu a, .menu .current ul a, .menu .current-cat ul a, .menu .current-menu-item ul a { color: #111111; background: #EFEFEF; }*/
+.custom .menu a:hover, .menu .current ul a:hover, .menu .current-cat ul a:hover, .menu .current-parent a:hover, .menu .current-menu-item ul a:hover, .menu .current-menu-ancestor a:hover { color: #111111; background: #f0efef; }
+/*.menu .current a, .menu .current a:hover, .menu .current-cat a, .menu .current-cat a:hover, .menu .current-menu-item a, .menu .current-menu-item a:hover { color: #111111; background: #FFFFFF; }
+.menu .current-parent > a, .menu .current-cat-parent > a, .menu .current-menu-ancestor > a { color: #111111; background: #F0EEC2; }
+*/
+.custom .menu { border:none; }
+.custom .menu li:hover{ opacity: 0.85; }
+.custom .menu li ul { border:2px solid #f0efef; }
+.custom .menu li a { border-radius:5px; padding:10px; margin:5px 2px; font-size:14px; }
+/*.custom .sub-menu ul { width:auto; border-style:solid; }*/
+.custom .sub-menu li a { width:auto; border-radius:0px; padding:6px; margin:0px; text-transform:none; background-color:#fff; }
+/*.custom .sub-menu ul a (width:auto; }
+.custom .submenu li a:hover {background-color:#f0efef; }*/
