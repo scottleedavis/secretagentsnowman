@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/skawtus/secretagentsnowman.svg)](https://travis-ci.org/skawtus/secretagentsnowman)
+
 secretagentsnowman
 ==================
 
