@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/skawtus/secretagentsnowman.svg)](https://travis-ci.org/skawtus/secretagentsnowman)
+
 secretagentsnowman
 ==================
 
@@ -5,6 +7,8 @@ site code for secret agent snowman
 
 Installation
 ------------
+
+
 
 ```
 npm install
