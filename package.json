@@ -1,17 +1,26 @@
 {
-  "name": "growler-signup",
-  "description": "Growler Signup Application",
+  "name": "secretagentsnowman",
+  "description": "secretagentsnowman site code",
   "version": "0.0.1",
   "private": true,
-  "dependencies": {
-    "bower": "^1.3.5",
-    "express": "3.x",
-    "underscore": "1.6"
-  },
-  "devDependencies": {
-    "express-debug": "^1.1.0"
-  },
+  "main": "server.js",
   "scripts": {
-    "postinstall": "bower install"
-  }
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "underscore": "latest"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skawtus/secretagentsnowman"
+  },  
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT"
 }
