@@ -21,7 +21,7 @@ Run
 node server.js
 ```
 
-And point your browser to [http://localhost:3000](http://localhost:3000)
+And point your browser to [http://localhost:5000](http://localhost:5000)
 
 
 Assets
