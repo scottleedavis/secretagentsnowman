@@ -2,6 +2,7 @@ __ = require('underscore');
 
 var express = require('express');
  
+//TODO resetup express to latest express and middleware config.
 
 var app = express();
 app.set('port', (process.env.PORT || 5000))
