@@ -32,3 +32,6 @@ node_modules/*
 
 *.iml
 .idea/*
+
+run.sh
+run-debug.sh
