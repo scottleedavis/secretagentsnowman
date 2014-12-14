@@ -17,7 +17,7 @@ Run
 ---
 
 ```
-node server.js
+npm start
 ```
 
 And point your browser to [http://localhost:5000](http://localhost:5000)
