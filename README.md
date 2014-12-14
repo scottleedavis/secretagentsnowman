@@ -3,7 +3,9 @@
 secretagentsnowman
 ==================
 
-site code for secret agent snowman
+site code for secret agent snowman.
+
+emits a [snowball](https://github.com/secretagentsnowman/snowball) in middleware.
 
 Installation
 ------------
