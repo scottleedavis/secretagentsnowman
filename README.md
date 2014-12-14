@@ -22,7 +22,7 @@ Run
 npm start
 ```
 
-And point your browser to [http://localhost:5000](http://localhost:5000)
+And point your browser to [http://localhost:3000](http://localhost:3000)
 
 
 Assets
