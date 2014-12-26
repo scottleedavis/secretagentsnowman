@@ -6,7 +6,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var toss = require(path.join(__dirname, 'lib/snowball'));
+//toss costs money!  enable later on...
+//var toss = require(path.join(__dirname, 'lib/snowball'));
 var app = express();
 
 app.enable("trust proxy");
@@ -19,7 +20,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(toss());
+//app.use(toss());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // catch 404 and forward to error handler
