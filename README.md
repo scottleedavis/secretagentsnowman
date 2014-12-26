@@ -3,7 +3,9 @@
 secretagentsnowman
 ==================
 
-site code for secret agent snowman
+site code for secret agent snowman.
+
+emits a [snowball](https://github.com/secretagentsnowman/snowball) in middleware.
 
 Installation
 ------------
@@ -17,10 +19,10 @@ Run
 ---
 
 ```
-node server.js
+npm start
 ```
 
-And point your browser to [http://localhost:5000](http://localhost:5000)
+And point your browser to [http://localhost:3000](http://localhost:3000)
 
 
 Assets
