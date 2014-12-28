@@ -5,7 +5,7 @@ secretagentsnowman
 
 site code for secret agent snowman.
 
-emits a [snowball](https://github.com/secretagentsnowman/snowball) in middleware.
+emits to [AWS SNS](http://aws.amazon.com/sns/) in middleware.
 
 Installation
 ------------
