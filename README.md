@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/skawtus/secretagentsnowman.svg)](https://travis-ci.org/skawtus/secretagentsnowman)
+[![Build Status](https://travis-ci.org/skawtus/ap-secretagentsnowman-com.svg?branch=master)](https://travis-ci.org/skawtus/ap-secretagentsnowman-com)
 
-secretagentsnowman
+ap-secretagentsnowman-com
 ==================
 
 site code for secret agent snowman.
